@@ -4,6 +4,15 @@
 *.o
 *.obj
 
+# vim workfiles
+*.swp
+
+# CMake files
+*/CMakeCache.txt
+*/CMakeFiles
+*/cmake_install.cmake
+*/Makefile
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -27,3 +36,4 @@
 *.exe
 *.out
 *.app
+*/bin
