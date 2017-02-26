@@ -1,0 +1,7 @@
+#ifndef COM_VERSION_H
+#define COM_VERSION_H
+
+#define COMPUTER_MAJOR_VER @computer_VERSION_MAJOR@
+#define COMPUTER_MINOR_VER @computer_VERSION_MINOR@
+
+#endif /* COM_VERSION_H */
