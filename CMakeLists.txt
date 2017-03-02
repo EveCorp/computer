@@ -7,6 +7,14 @@ project (computer)
 set (computer_VERSION_MAJOR 0)
 set (computer_VERSION_MINOR 0)
 
+# look for gloox dependency
+find_library (GLOOX gloox)
+
+# Abort if library was not found
+if(NOT GLOOX)
+	message (FATAL_ERROR "Could not satisfy dependency: gloox")
+endif()
+
 # Daemon source directory
 set (COMPUTER_SOURCE_DIR "${PROJECT_SOURCE_DIR}/src/computer")
 
