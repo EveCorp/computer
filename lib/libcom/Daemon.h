@@ -13,9 +13,7 @@ public:
 
 	~Daemon();
 
-
-	void registerDaemon(void) const;
-	void unregisterDaemon(void) const;
+	const std::string &getID(void) const;
 
 private:
 	const std::string &dID;
